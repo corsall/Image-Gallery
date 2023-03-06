@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LCbiGj9exDN+jjlnN/J63zGXdyIEHbpCrY6+GbvdXNA=",
+  "Hash": "G+jk57jLK8HAlqVDIatyVo7x4SaAVvLRY0gHrcly/Z4=",
   "Source": "ImagesApi",
   "BasePath": "_content/ImagesApi",
   "Mode": "Default",
@@ -17,6 +17,23 @@
   ],
   "Assets": [
     {
+      "Identity": "C:\\Users\\Baristop\\Desktop\\Gallery\\ImagesApi\\wwwroot\\Images\\berserk.jpg",
+      "SourceId": "ImagesApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\Gallery\\ImagesApi\\wwwroot\\",
+      "BasePath": "_content/ImagesApi",
+      "RelativePath": "Images/berserk.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\berserk.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Baristop\\Desktop\\Gallery\\ImagesApi\\wwwroot\\Images\\cuteCat.jpg",
       "SourceId": "ImagesApi",
       "SourceType": "Discovered",
@@ -32,6 +49,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\cuteCat.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Baristop\\Desktop\\Gallery\\ImagesApi\\wwwroot\\Images\\delete.png",
+      "SourceId": "ImagesApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\Gallery\\ImagesApi\\wwwroot\\",
+      "BasePath": "_content/ImagesApi",
+      "RelativePath": "Images/delete.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\delete.png"
+    },
+    {
+      "Identity": "C:\\Users\\Baristop\\Desktop\\Gallery\\ImagesApi\\wwwroot\\Images\\dog.png",
+      "SourceId": "ImagesApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\Gallery\\ImagesApi\\wwwroot\\",
+      "BasePath": "_content/ImagesApi",
+      "RelativePath": "Images/dog.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\dog.png"
     },
     {
       "Identity": "C:\\Users\\Baristop\\Desktop\\Gallery\\ImagesApi\\wwwroot\\Images\\free-sticker-star-8073637.png",
@@ -219,6 +270,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\god.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Baristop\\Desktop\\Gallery\\ImagesApi\\wwwroot\\Images\\owl.jpg",
+      "SourceId": "ImagesApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\Gallery\\ImagesApi\\wwwroot\\",
+      "BasePath": "_content/ImagesApi",
+      "RelativePath": "Images/owl.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\owl.jpg"
     },
     {
       "Identity": "C:\\Users\\Baristop\\Desktop\\Gallery\\ImagesApi\\wwwroot\\Images\\RobloxScreenShot20220907_115114315.png",

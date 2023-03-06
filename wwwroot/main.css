@@ -24,9 +24,27 @@ h3{
 }
 
 img{
-    max-width: 150px;
+    max-width: 200px;
     max-height: 150px;
     margin: 10px;
+}
+
+input{
+    color: #f2f2f2;
+    background-color: #333333;
+    border-color: #4e4c4c;
+    border-style: solid;
+}
+
+button
+{
+    width: 100px;
+    height: 40px;
+    margin: 40px;
+    color: #f2f2f2;
+    background-color: #333333;
+    border-color: #4e4c4c;
+    border-style: solid;
 }
 
 .container{
@@ -73,23 +91,45 @@ img{
     justify-content: center;
 
     overflow: auto;
-    scrollbar-color: red;
 }
 
 .image{
     margin: 20px;
     text-align: center;
     background-color: #343541;
-    /* width: 25%;
-    height: 30%; */
     min-width: 25%;
     min-height: 30%;
 
     overflow: hidden;
 }
 
+.top
+{
+    text-align: center;
+    height: 80%;
+    width: auto;
+}
+
+.bottom
+{
+    position: relative;
+    width: 90%;
+    height: 20%;
+    width: auto;
+
+    overflow: auto;
+}
+
+.bottom-right
+{
+    position: absolute; 
+    right:  0;
+    bottom: 0;
+}
+
 .description
 {
+    max-width: 100%;
     word-wrap: break-word;
     color: white;
     margin:0%;
@@ -97,7 +137,6 @@ img{
     margin-left: 10px;
     font-size: 12px;
     text-align: left;
-    bottom: 0;
 }
 
 .time_created
@@ -107,6 +146,13 @@ img{
     margin-top: 10px;
     font-size: 10px;
     text-align: left;
+    bottom: 0;
+}
+
+.delete
+{
+    max-width: 20px;
+    max-height: 20px;
 }
 
 .inputs
@@ -114,22 +160,3 @@ img{
     padding: 30px;
     width: 50%;
 }
-
-input{
-    color: #f2f2f2;
-    background-color: #333333;
-    border-color: #4e4c4c;
-    border-style: solid;
-}
-
-button
-{
-    width: 100px;
-    height: 40px;
-    margin: 40px;
-    color: #f2f2f2;
-    background-color: #333333;
-    border-color: #4e4c4c;
-    border-style: solid;
-}
-

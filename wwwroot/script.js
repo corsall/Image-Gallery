@@ -10,20 +10,45 @@ saveButton.addEventListener('click', saveImage);
 async function dispayImages(images)
 {
     let allImages = '';
+    let button;
 
     images.forEach(image =>{
         const imageHtmlElement = `
-        <div class="image" data-id="${image.id}">
-            <img src="${image.imageLink}" alt="${image.name}">
-            <h3>${image.name}</h3>
-            <p class="description">${image.description}</p>
-            <p class="time_created">${image.timeCreated}</p>
+        <div class="image">
+            <div class="top">
+                <img src="${image.imageLink}" alt="${image.name}">
+                <h3>${image.name}</h3>
+            </div>
+            <div class="bottom">
+                <p class="description">${image.description}</p>
+                <p class="time_created">${image.timeCreated}</p>
+                <div class="bottom-right">
+                    <img class="delete" src="Images/delete.png" alt="delete" id="delete" data-id="${image.id}">
+                </div>
+            </div>
         </div>
         `;
-
+        // button = document.querySelector('#delete');
+        // button.addEventListener('click', () => {
+        //     const id = button.dataset.id;
+        //     deleteImage(id);
+        // });
+        // deleteButtons[image.id] = document.querySelector(`#delete${image.id}`)
+        // deleteButtons[image.id].addEventListener('click', deleteImage(image.id));
         allImages += imageHtmlElement;
     })
     imagesContainer.innerHTML = allImages;
+
+    const deleteButtons = document.querySelectorAll('#delete');
+
+    deleteButtons.forEach((button) => {
+        button.addEventListener('click', () => {
+            const id = button.dataset.id;
+
+            console.log(`Delete button clicked for item ${id}`);
+            deleteImage(id);
+        });
+    });
     
 }
 
@@ -68,7 +93,7 @@ async function saveInfoAboutImage(path)
         description: imageDescription.value,
         imageLink: path
     };
-    await fetch('https://localhost:7205/api/Images', 
+    const response = await fetch('https://localhost:7205/api/Images', 
     {
         method: 'POST',
         headers: {
@@ -76,11 +101,22 @@ async function saveInfoAboutImage(path)
         }, 
         body: JSON.stringify(ImageData)
     })
-    .then(response => response.json())
-    .then(data => {
-        getAllImages();
+    if(response.ok === true)
+    {
+        await getAllImages();
+    }
+}
+
+async function deleteImage(id)
+{
+    const response = await fetch(`https://localhost:7205/api/Images/${id}`, 
+    {
+        method: 'DELETE',
     })
-    .catch(error => console.error(error));
+    if(response.ok === true)
+    {
+        await getAllImages();
+    }
 }
 
 getAllImages();
