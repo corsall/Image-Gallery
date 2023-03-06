@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="inputs">
+                <div class="upload_image">
+                    <h3>Select file to upload</h3>
+                    <input type="file" id="imagefile">
+                    <h3>or paste a link</h3>
+                    <input type="url" id="link">
+                </div>
+                <input type="text" id="name" placeholder="Add name of image" required>
+                <input type="text" id="description" placeholder="Add description to the image" required>
+            </div>
+            <button id="btnSave">Save</button>
+        </div>
+        <!-- Container of images -->
+        <div class="image_container">
+            <h2>Image gallery</h2>
+            <div class="gallery" id="image_gallery">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>
