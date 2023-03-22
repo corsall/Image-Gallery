@@ -16,16 +16,23 @@ public class ImagesController : Controller
         this.imagesDbContext = imagesDbContext;
     }
 
+    //Returns all images
     [HttpGet]
-
-    public async Task<IActionResult> GetAllImages()
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    public async Task<ActionResult<IEnumerable<Image>>> GetAllImages()
     {
-        return Ok(await imagesDbContext.Images.ToListAsync());
+        var images = await imagesDbContext.Images.ToListAsync();
+        if(images == null)
+        {
+            return NotFound();
+        }
+        return Ok(images);
     }
 
+    //Returns single image
     [HttpGet("{id}")]
-
-    public async Task<IActionResult> GetImageByID(int id)
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    public async Task<ActionResult<Image>> GetImageByID(int id)
     {
         var image = imagesDbContext.Images.FirstOrDefaultAsync(x => x.Id == id);
 
@@ -39,19 +46,19 @@ public class ImagesController : Controller
         }
     }
 
+    //This endpoint establishes only a description of the image and a link to that image, if such link exists.
     [HttpPost]
-
-    public async Task<IActionResult> AddImage(Image image)
+    public async Task<ActionResult<Image>> AddImage(Image image)
     {
-
         image.TimeCreated = DateTime.Now.ToShortTimeString();
         await imagesDbContext.Images.AddAsync(image);
         await imagesDbContext.SaveChangesAsync();
 
         return CreatedAtAction(nameof(AddImage), new {id = image.Id}, image);
-
     }
 
+    //This endpoint is used when the user has selected an image to be uploaded.
+    //TODO: Зроби обмеження по розміру на зберігання файлу
     [HttpPost("Upload")]
     public async Task<IActionResult> Upload(IFormFile file)
     {
@@ -69,11 +76,17 @@ public class ImagesController : Controller
         return Json("/Images/" + file.FileName);
     }
 
+    //This endpoint updates existing image.
     [HttpPut("{id}")]
-
-    public async Task<IActionResult> UpdateNote(int id, Image newImage)
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    public async Task<ActionResult<Image>> UpdateNote(int id, Image newImage)
     {
-        Image? existingImage = await imagesDbContext.Images.FirstOrDefaultAsync(x => x.Id == id);
+        if(id != newImage.Id)
+        {
+            return BadRequest();
+        }
+        Image existingImage = await imagesDbContext.Images.FirstOrDefaultAsync(x => x.Id == id);
 
         if(existingImage == null)
         {
@@ -85,7 +98,22 @@ public class ImagesController : Controller
         existingImage.TimeCreated = newImage.TimeCreated;
         existingImage.Description = newImage.Description;
 
-        await imagesDbContext.SaveChangesAsync();
+        try
+        {
+            imagesDbContext.Update(existingImage);
+            await imagesDbContext.SaveChangesAsync();
+        }
+        catch(DbUpdateConcurrencyException)
+        {
+            if(!(await imagesDbContext.Images.AnyAsync(x => x.Id == id)))
+            {
+                return NotFound();
+            }
+            else
+            {
+                throw;
+            }
+        }
 
         return Ok(existingImage);
     }
@@ -99,9 +127,9 @@ public class ImagesController : Controller
         if(image == null)
             NotFound();
 
-        imagesDbContext.Remove(image!);
+        imagesDbContext.Remove(image);
         await imagesDbContext.SaveChangesAsync();
 
-        return Ok();
+        return NoContent();
     }
 }
