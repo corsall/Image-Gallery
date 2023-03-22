@@ -1,3 +1,5 @@
+using AutoMapper;
+using AutoMapper.QueryableExtensions;
 using ImagesApi.Entities;
 using ImagesApi.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -11,8 +13,10 @@ namespace ImagesApi.Controllers;
 public class ImagesController : Controller
 {
     private readonly ImagesDbContext imagesDbContext; 
-    public ImagesController(ImagesDbContext imagesDbContext)
+    private readonly IMapper _mapper;
+    public ImagesController(ImagesDbContext imagesDbContext, IMapper mapper)
     {
+        _mapper = mapper;
         this.imagesDbContext = imagesDbContext;
     }
 
@@ -27,6 +31,26 @@ public class ImagesController : Controller
             return NotFound();
         }
         return Ok(images);
+    }
+
+    [HttpGet("GetPaged")]
+    public async Task<ActionResult<PagedResult<Image>>> GetPagedImages([FromQuery] QueryParameters queryParameters)
+    {
+        int totalSize = await imagesDbContext.Images.CountAsync();
+        var items = await imagesDbContext.Images.Skip(queryParameters.PageSize * queryParameters.PageNumber).Take(queryParameters.PageSize).ToListAsync();
+        var pagedImagesResult = new PagedResult<Image>
+        {
+            Items = items,
+            PageNumber = queryParameters.PageNumber,
+            RecordSize = queryParameters.PageSize,
+            TotalCount = totalSize
+        };
+
+        if(pagedImagesResult == null)
+        {
+            return NotFound();
+        }
+        return Ok(pagedImagesResult);
     }
 
     //Returns single image
@@ -48,8 +72,9 @@ public class ImagesController : Controller
 
     //This endpoint establishes only a description of the image and a link to that image, if such link exists.
     [HttpPost]
-    public async Task<ActionResult<Image>> AddImage(Image image)
+    public async Task<ActionResult<Image>> AddImage(CreateImageDto createImage)
     {
+        var image = _mapper.Map<Image>(createImage);
         image.TimeCreated = DateTime.Now.ToShortTimeString();
         await imagesDbContext.Images.AddAsync(image);
         await imagesDbContext.SaveChangesAsync();
