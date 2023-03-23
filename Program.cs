@@ -12,6 +12,10 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddAutoMapper(typeof(MapperConfig));
 
+builder.Services.ConfigureApplicationCookie(options => {
+     options.Cookie.SameSite = 0;
+});
+
 var app = builder.Build();
 
 if(app.Environment.IsDevelopment())
@@ -23,9 +27,9 @@ if(app.Environment.IsDevelopment())
 app.UseDefaultFiles();
 app.UseStaticFiles();
 app.UseHttpsRedirection();
+app.UseCookiePolicy();
 
 app.UseCors(policy => policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
-
 app.MapControllers();
 
 app.Run();

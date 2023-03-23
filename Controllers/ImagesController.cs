@@ -21,7 +21,7 @@ public class ImagesController : Controller
     }
 
     //Returns all images
-    [HttpGet]
+    [HttpGet("GetAll")]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<ActionResult<IEnumerable<Image>>> GetAllImages()
     {
@@ -33,7 +33,7 @@ public class ImagesController : Controller
         return Ok(images);
     }
 
-    [HttpGet("GetPaged")]
+    [HttpGet]
     public async Task<ActionResult<PagedResult<Image>>> GetPagedImages([FromQuery] QueryParameters queryParameters)
     {
         int totalSize = await imagesDbContext.Images.CountAsync();
