@@ -14,20 +14,21 @@ async function dispayImages(images)
 
     images.forEach(image =>{
         const imageHtmlElement = `
-        <div class="image">
-            <div class="top">
+        <div class="image-container">
+            <div class="image-wrapper">
                 <img src="${image.imageLink}" alt="${image.name}">
                 <h3>${image.name}</h3>
             </div>
-            <div class="bottom">
+            <div class="image-bottom">
                 <p class="description">${image.description}</p>
                 <p class="time_created">${image.timeCreated}</p>
-                <div class="bottom-right">
-                    <img class="delete" src="Images/delete.png" alt="delete" id="delete" data-id="${image.id}">
-                </div>
             </div>
         </div>
         `;
+
+        // <div class="image-bottom-right">
+        // <img class="delete" src="Images/delete.png" alt="delete" id="delete" data-id="${image.id}">
+        // </div>
         // button = document.querySelector('#delete');
         // button.addEventListener('click', () => {
         //     const id = button.dataset.id;

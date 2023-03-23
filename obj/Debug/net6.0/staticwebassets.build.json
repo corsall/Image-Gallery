@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "y5VYCEs2R+qa5Vyj0ScyXbQY/1BLZ8hUIqJ+/rKOEAo=",
+  "Hash": "VWF9tjD7CZ6syYAfVqyFsG3jTocWfCvXyybkwzlCpj0=",
   "Source": "ImagesApi",
   "BasePath": "_content/ImagesApi",
   "Mode": "Default",
@@ -16,6 +16,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\images.css",
+      "SourceId": "ImagesApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\",
+      "BasePath": "_content/ImagesApi",
+      "RelativePath": "images.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images.css"
+    },
     {
       "Identity": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\Images\\berserk.jpg",
       "SourceId": "ImagesApi",

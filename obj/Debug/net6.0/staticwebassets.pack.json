@@ -69,6 +69,10 @@
       "PackagePath": "staticwebassets\\Images\\owl.jpg"
     },
     {
+      "Id": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\images.css",
+      "PackagePath": "staticwebassets\\images.css"
+    },
+    {
       "Id": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },

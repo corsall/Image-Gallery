@@ -1,5 +1,4 @@
-*
-{
+*{
     margin: 0;
     padding: 0;
     box-sizing:  border-box;
@@ -21,12 +20,6 @@ h3{
     text-align: center;
     margin:0%;
     font-size: 15px;
-}
-
-img{
-    max-width: 200px;
-    max-height: 150px;
-    margin: 10px;
 }
 
 input{
@@ -75,84 +68,6 @@ button
     position:absolute;
     right: 0;
     padding: 20px;
-}
-
-.gallery{
-    padding: 20px;
-    background-color: #3e3f4b;
-    width: 100;
-    margin: 10px;
-    height: 90%;
-
-    flex: 1;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-
-    overflow: auto;
-}
-
-.image{
-    margin: 20px;
-    text-align: center;
-    background-color: #343541;
-    min-width: 25%;
-    min-height: 30%;
-
-    overflow: hidden;
-}
-
-.top
-{
-    text-align: center;
-    height: 80%;
-    width: auto;
-}
-
-.bottom
-{
-    position: relative;
-    width: 90%;
-    height: 20%;
-    width: auto;
-
-    overflow: auto;
-}
-
-.bottom-right
-{
-    position: absolute; 
-    right:  0;
-    bottom: 0;
-}
-
-.description
-{
-    max-width: 100%;
-    word-wrap: break-word;
-    color: white;
-    margin:0%;
-    margin-top: 10px;
-    margin-left: 10px;
-    font-size: 12px;
-    text-align: left;
-}
-
-.time_created
-{
-    color: white;
-    margin:0%;
-    margin-top: 10px;
-    font-size: 10px;
-    text-align: left;
-    bottom: 0;
-}
-
-.delete
-{
-    max-width: 20px;
-    max-height: 20px;
 }
 
 .inputs
