@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CorQ9cgtuyVuzyXu0CNb0yy2BT/eLDpaJXvt/m+lBlbRhibSbO718MM0qfEb29HSDHAlriz5aqTEOevQBa6LDw==",
+  "dgSpecHash": "SNwfRT93qen+sclBIiWgh8q3IlQwzFds50k97/wN5inysXUSn3tEI4xsxugMLEpwyQ05TfFrA7lA7f8rwRD86g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\ImagesApi.csproj",
+  "projectFilePath": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\ImagesApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Baristop\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Baristop\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

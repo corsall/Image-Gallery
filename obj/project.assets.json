@@ -3956,11 +3956,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\ImagesApi.csproj",
+      "projectUniqueName": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\ImagesApi.csproj",
       "projectName": "ImagesApi",
-      "projectPath": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\ImagesApi.csproj",
+      "projectPath": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\ImagesApi.csproj",
       "packagesPath": "C:\\Users\\Baristop\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\obj\\",
+      "outputPath": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Baristop\\AppData\\Roaming\\NuGet\\NuGet.Config",

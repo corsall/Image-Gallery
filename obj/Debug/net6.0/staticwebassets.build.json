@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VWF9tjD7CZ6syYAfVqyFsG3jTocWfCvXyybkwzlCpj0=",
+  "Hash": "xHpBIUbzA0VMxSQkFGaArlxSWJOChQKzMdgzHKAfaR0=",
   "Source": "ImagesApi",
   "BasePath": "_content/ImagesApi",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ImagesApi\\wwwroot",
       "Source": "ImagesApi",
-      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\",
       "BasePath": "_content/ImagesApi",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\images.css",
+      "Identity": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\images.css",
       "SourceId": "ImagesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\",
       "BasePath": "_content/ImagesApi",
       "RelativePath": "images.css",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\images.css"
     },
     {
-      "Identity": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\Images\\berserk.jpg",
+      "Identity": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\Images\\berserk.jpg",
       "SourceId": "ImagesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\",
       "BasePath": "_content/ImagesApi",
       "RelativePath": "Images/berserk.jpg",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\berserk.jpg"
     },
     {
-      "Identity": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\Images\\cuteCat.jpg",
+      "Identity": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\Images\\cuteCat.jpg",
       "SourceId": "ImagesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\",
       "BasePath": "_content/ImagesApi",
       "RelativePath": "Images/cuteCat.jpg",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\cuteCat.jpg"
     },
     {
-      "Identity": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\Images\\delete.png",
+      "Identity": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\Images\\delete.png",
       "SourceId": "ImagesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\",
       "BasePath": "_content/ImagesApi",
       "RelativePath": "Images/delete.png",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\delete.png"
     },
     {
-      "Identity": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\Images\\dog.png",
+      "Identity": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\Images\\dog.png",
       "SourceId": "ImagesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\",
       "BasePath": "_content/ImagesApi",
       "RelativePath": "Images/dog.png",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\dog.png"
     },
     {
-      "Identity": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\Images\\free-sticker-star-8073637.png",
+      "Identity": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\Images\\free-sticker-star-8073637.png",
       "SourceId": "ImagesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\",
       "BasePath": "_content/ImagesApi",
       "RelativePath": "Images/free-sticker-star-8073637.png",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\free-sticker-star-8073637.png"
     },
     {
-      "Identity": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\Images\\free-sticker-star-8073641.png",
+      "Identity": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\Images\\free-sticker-star-8073641.png",
       "SourceId": "ImagesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\",
       "BasePath": "_content/ImagesApi",
       "RelativePath": "Images/free-sticker-star-8073641.png",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\free-sticker-star-8073641.png"
     },
     {
-      "Identity": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\Images\\free-sticker-star-8073645.png",
+      "Identity": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\Images\\free-sticker-star-8073645.png",
       "SourceId": "ImagesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\",
       "BasePath": "_content/ImagesApi",
       "RelativePath": "Images/free-sticker-star-8073645.png",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\free-sticker-star-8073645.png"
     },
     {
-      "Identity": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\Images\\free-sticker-star-8073650.png",
+      "Identity": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\Images\\free-sticker-star-8073650.png",
       "SourceId": "ImagesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\",
       "BasePath": "_content/ImagesApi",
       "RelativePath": "Images/free-sticker-star-8073650.png",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\free-sticker-star-8073650.png"
     },
     {
-      "Identity": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\Images\\free-sticker-star-8073654.png",
+      "Identity": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\Images\\free-sticker-star-8073654.png",
       "SourceId": "ImagesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\",
       "BasePath": "_content/ImagesApi",
       "RelativePath": "Images/free-sticker-star-8073654.png",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\free-sticker-star-8073654.png"
     },
     {
-      "Identity": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\Images\\free-sticker-star-8073658.png",
+      "Identity": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\Images\\free-sticker-star-8073658.png",
       "SourceId": "ImagesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\",
       "BasePath": "_content/ImagesApi",
       "RelativePath": "Images/free-sticker-star-8073658.png",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\free-sticker-star-8073658.png"
     },
     {
-      "Identity": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\Images\\free-sticker-star-8073662.png",
+      "Identity": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\Images\\free-sticker-star-8073662.png",
       "SourceId": "ImagesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\",
       "BasePath": "_content/ImagesApi",
       "RelativePath": "Images/free-sticker-star-8073662.png",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\free-sticker-star-8073662.png"
     },
     {
-      "Identity": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\Images\\free-sticker-star-8073666.png",
+      "Identity": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\Images\\free-sticker-star-8073666.png",
       "SourceId": "ImagesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\",
       "BasePath": "_content/ImagesApi",
       "RelativePath": "Images/free-sticker-star-8073666.png",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\free-sticker-star-8073666.png"
     },
     {
-      "Identity": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\Images\\free-sticker-star-8073670.png",
+      "Identity": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\Images\\free-sticker-star-8073670.png",
       "SourceId": "ImagesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\",
       "BasePath": "_content/ImagesApi",
       "RelativePath": "Images/free-sticker-star-8073670.png",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\free-sticker-star-8073670.png"
     },
     {
-      "Identity": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\Images\\free-sticker-star-8073673.png",
+      "Identity": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\Images\\free-sticker-star-8073673.png",
       "SourceId": "ImagesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\",
       "BasePath": "_content/ImagesApi",
       "RelativePath": "Images/free-sticker-star-8073673.png",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\free-sticker-star-8073673.png"
     },
     {
-      "Identity": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\Images\\god.jpg",
+      "Identity": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\Images\\god.jpg",
       "SourceId": "ImagesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\",
       "BasePath": "_content/ImagesApi",
       "RelativePath": "Images/god.jpg",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\god.jpg"
     },
     {
-      "Identity": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\Images\\owl.jpg",
+      "Identity": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\Images\\owl.jpg",
       "SourceId": "ImagesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\",
       "BasePath": "_content/ImagesApi",
       "RelativePath": "Images/owl.jpg",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\owl.jpg"
     },
     {
-      "Identity": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\Images\\RobloxScreenShot20220907_115114315.png",
+      "Identity": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\Images\\RobloxScreenShot20220907_115114315.png",
       "SourceId": "ImagesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\",
       "BasePath": "_content/ImagesApi",
       "RelativePath": "Images/RobloxScreenShot20220907_115114315.png",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\RobloxScreenShot20220907_115114315.png"
     },
     {
-      "Identity": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\index.html",
       "SourceId": "ImagesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\",
       "BasePath": "_content/ImagesApi",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\main.css",
+      "Identity": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\main.css",
       "SourceId": "ImagesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\",
       "BasePath": "_content/ImagesApi",
       "RelativePath": "main.css",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\main.css"
     },
     {
-      "Identity": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\script.js",
+      "Identity": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\script.js",
       "SourceId": "ImagesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\C#\\Gallery\\ImagesApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Baristop\\Desktop\\New folder\\Image-Gallery-ASP.NET-Core-MVC-HTML-CSS-JS\\wwwroot\\",
       "BasePath": "_content/ImagesApi",
       "RelativePath": "script.js",
       "AssetKind": "All",
