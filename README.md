@@ -1,6 +1,15 @@
-This project is implemented on the basis of ASP.NET CORE using MVC pattern to build api
+This project is implemented on the basis of ASP.NET CORE
 
-This project is simple so it only uses c# and js and html/css
+## Technologies
+
+The project uses the following technologies:
+
+- .NET Core 6
+- Plain JS/HTML/CSS
+- REST principles
+- Swagger
+- Entity Framework Core
+- SQL Server
 
 Please note: 
 Before building the project  restore all project dependencies
